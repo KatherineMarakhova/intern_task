@@ -1,0 +1,31 @@
+products = {
+    'MONITORING 1.8.5': ['BILLING 2.3.2', 'CRM 1.5.5', 'RATING 2.0.0', 'QOS 1.2.3'],
+    'RATING 2.0.0': ['BILLING 2.3.2'],
+    'QOS 1.2.3': ['RATING 2.0.0'],
+    'BILLING 2.3.2': [],
+    'CRM 1.5.5': ['BILLING 2.3.2']
+}
+
+products = {
+    'RATING 2.0.0': ['BILLING 2.3.2'],
+    'QOS 1.2.3': ['RATING 2.0.0'],
+    'BILLING 2.3.2': [],
+    'MONITORING 1.8.5': ['BILLING 2.3.2', 'CRM 1.5.5', 'QOS 1.2.3', 'RATING 2.0.0'],
+    'CRM 1.5.5': ['RATING 2.0.0']
+}
+
+products = {
+    'RATING 2.0.0': ['BILLING 2.3.2'],
+    'MONITORING 1.8.5': ['BILLING 2.3.2', 'CRM 1.5.5', 'QOS 1.2.3', 'RATING 2.0.0'],
+    'QOS 1.2.3': ['RATING 2.0.0'],
+    'BILLING 2.3.2': [],
+    'CRM 1.5.5': ['RATING 2.0.0']
+}
+
+products = {
+    'BILLING 2.3.2': [],
+    'CRM 1.5.5': ['BILLING 2.3.2'],
+    'RATING 2.0.0': ['BILLING 2.3.2'],
+    'QOS 1.2.3': ['RATING 2.0.0'],
+    'MONITORING 1.8.5': ['BILLING 2.3.2', 'CRM 1.5.5', 'QOS 1.2.3', 'RATING 2.0.0']
+}
